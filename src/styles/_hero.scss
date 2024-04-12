@@ -1,0 +1,33 @@
+//Hero é um banner
+@use 'variaveis';
+
+.hero{
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../images/86zXbMvkaue-bulhoes-workbook.png);
+    text-align: center;
+    background-size: cover;
+
+    &__content{
+        max-width: 640px;
+        margin: 0 auto;
+
+        &__branding{
+            max-width: 320px;
+            margin: 0 auto 38px;
+
+            img{
+                height: 180px;
+            }
+        }
+
+        .tittle--small{
+            margin-bottom: 64px;
+        }
+
+        p{
+            margin-bottom: 20px;
+            color: #fff;
+        }
+    }
+}
